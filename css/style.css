@@ -1,0 +1,177 @@
+/** Fixed Navbar **/
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 30px;
+}
+
+#home {
+	background: url(https://s3-us-west-2.amazonaws.com/tm-codepen/Road+Just+Traveled.JPG) no-repeat center fixed;
+	padding-top: 150px;
+	padding-bottom: 600px;
+	background-size: 1600px;
+}
+
+.text-center  {
+	color: white;
+	font-weight: bold;
+}
+
+.text-center h1 {
+	font-size: 80px;
+}
+
+#portfolio {
+	background-color: #ccc;
+	/* color: #ffffff; */
+	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+ 
+#portfolio h2 {
+	font-size: 2.8em;
+	letter-spacing: 2.5px;
+	color: black;
+}
+
+.separator-portfolio {
+	margin-left: .5px;
+	max-width: 260px;
+  border-top: solid 5px;
+}
+
+#portfolio h3 {
+	color: black;
+}
+
+/* Give project boxes a good margin-bottom */
+
+.project-box {
+  margin-bottom: 20px;
+}
+
+.img {
+	width: 350px; 
+	height: 300px;
+}
+
+#about {
+	background: url(https://s3-us-west-2.amazonaws.com/tm-codepen/meadowlake.jpeg) no-repeat center fixed;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#about h2 {
+	font-size: 2.8em;
+	letter-spacing: 2.5px;
+	color: black;
+}
+
+#about p {
+	font-size: 1.2em;
+	color: black;
+}
+
+#contact {
+	background-color: #ccc;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+#contact h2 {
+	font-size: 2.8em;
+	letter-spacing: 2.5px;
+}
+	
+
+/** Social  button styling **/
+.btn-default {
+	/* background:#7f7f7f; */
+  background:rgba(255,255,255,0.5);
+	border: 2px solid black;
+}
+
+.btn-default.twitter:hover {
+	border: 2px solid black;
+	background-color: #55acee;
+	color: white;
+}
+
+.btn-default.fcc:hover {
+	border: 2px solid black;
+	background-color: #006400;
+	color: white;
+}
+
+.btn-default.github:hover {
+	border: 2px solid black;
+	background-color: #333333;
+	color: white;
+}
+
+.btn-default.instagram:hover {
+	border: 2px solid black;
+	background-color: #3f729b;
+	color: white;
+}
+
+ .btn-round {
+	  /* background-color: #7f7f7f; */
+  	background: rgba(255,255,255,0.5);
+		border: 2px solid black;
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+	 	margin-right: 15px;
+}
+
+/** About paragraph styling - info from W3 schools **/
+
+div.background {
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid black;
+}
+
+.separator-about {
+	max-width: 290px;
+  border-top: solid 5px;
+}
+
+.separator-contact {
+	margin-left: .5px;
+	max-width: 285px;
+  border-top: solid 5px;
+}
+
+
+figure { 
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+	margin-left: 100px;
+  padding: 10px 20px; 
+
+  opacity: 0;
+  bottom: 0; 
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
+}
+.cap-bot figcaption { left: 0; bottom: -30%;}
+.cap-bot:hover figcaption { bottom: 0; }
